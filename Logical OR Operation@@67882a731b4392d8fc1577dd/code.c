@@ -10,6 +10,6 @@ int main()
     }
     else
     {
-        prinf("False");
+        printf("False");
     }
 }
