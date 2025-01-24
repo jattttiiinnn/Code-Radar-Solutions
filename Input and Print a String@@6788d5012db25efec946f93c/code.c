@@ -3,7 +3,7 @@
 int main()
 {
     char n;
-    printf(" ");
+    printf("");
     scanf("&s",&n);
     printf("You entered: &s", n);
 }
