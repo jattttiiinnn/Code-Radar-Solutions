@@ -5,6 +5,6 @@ int main()
 {
     char n[100];
     printf("");
-    fgets(n, stdin);
+    fgets(n, sizeof(n), stdin);
     printf("You entered: %s",n);
 }
