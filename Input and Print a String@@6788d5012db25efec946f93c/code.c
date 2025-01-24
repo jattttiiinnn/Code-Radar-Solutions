@@ -4,6 +4,6 @@ int main()
 {
     char n;
     printf("");
-    scanf("&s",&n);
-    printf("You entered: &s", n);
+    scanf("%c",&n);
+    printf("You entered: %c", n);
 }
