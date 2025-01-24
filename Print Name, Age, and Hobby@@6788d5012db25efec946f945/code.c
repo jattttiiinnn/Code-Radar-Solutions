@@ -2,13 +2,13 @@
 
 int main()
 {
-    char a,b;
-    int n;
-    printf("");
-    printf("");
-    printf("");
-    scanf("%c %c %d",a,&b,n);
-    printf("Name: %c\n",a);
-    printf("Age: %d\n",n);
-    printf("Hobby: %c",b);
+    char name[100];
+    int age;
+    char hobby[100];
+    scanf("%s\n",name);
+    scanf("%d\n",&age);
+    scanf("%s\n",hobby);
+    printf("%s\n",name);
+    printf("%d\n",age);
+    printf("%s\n",hobby);
 }
