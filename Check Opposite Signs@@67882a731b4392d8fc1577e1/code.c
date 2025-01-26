@@ -11,10 +11,10 @@ int main()
     scanf("%d %d",&a,&b);
     if (check(a,b))
     {
-        printf("True");
+        printf("True\n");
     }
     else
     {
-        printf("False");
+        printf("False\n");
     }
 }
