@@ -4,7 +4,7 @@
 int main(){
     char a;
     scanf("%c",&a);
-    if (a=="a"||a=="A"||a=="E"|| a=="e"||a=="I"|| a=="i"||a=="O" a=="o"||a=="U"|| a=="u"){
+    if (a=="a"||a=="A"||a=="E"|| a=="e"||a=="I"|| a=="i"||a=="O"|| a=="o"||a=="U"|| a=="u"){
         printf("Vowel");
     }
     else{
