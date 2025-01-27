@@ -8,10 +8,10 @@ int main()
     msb = 1 << (BITS-1);
     if (num & msb)
     {
-        printf("Set");
+        printf("%d Set");
     }
     else
     {
-        printf("Not Set");
+        printf("%d Not Set");
     }
 }
