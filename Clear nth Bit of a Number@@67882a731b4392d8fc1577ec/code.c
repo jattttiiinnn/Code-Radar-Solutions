@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int clearbit(int n, int k)
-{
+int clearbit(int n, int k) {
     return (N & (~(1<<(k-1))));
 }
 
