@@ -5,11 +5,11 @@ int main(){
     char a;
     scanf("%c",&a);
     if isdigit(a){
-        printf("Digit");
+        printf("");
     }
     else if (a=='a'||a=='A'||a=='E'|| a=='e'||
         a=='I'|| a=='i'||a=='O'|| a=='o'||
-        a=='U'|| a=='u'){
+        a=='U'|| a=='u') {
         printf("Vowel");
     }
     else{
