@@ -6,12 +6,13 @@ int check(int a,int b,int c){
         return false;
     return true;
 }
-
-void main(){
+int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if (check(a,b))
+    if (check(a,b)){
         printf("Valid");
-    else
+    }
+    else{
         printf("Invalid");
+    }
 }
