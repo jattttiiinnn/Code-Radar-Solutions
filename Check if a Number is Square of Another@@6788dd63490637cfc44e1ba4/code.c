@@ -3,8 +3,8 @@
 int main(){
     int a,b,c;
     scanf("%d %d",&a,&b);
-    c = sqrt(b);
-    if (c == a){
+    c = sqrt(a);
+    if (c == b){
         printf("Yes");
     }
     else{
