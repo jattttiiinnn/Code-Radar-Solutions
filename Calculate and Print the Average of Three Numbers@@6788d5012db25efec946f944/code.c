@@ -7,5 +7,5 @@ int main()
     int result;
     scanf("%d%d%d",&a,&b,&c);
     result = (a+b+c)/3.0;
-    printf("Average: ",result);
+    printf("Average: %.2f",result);
 }
