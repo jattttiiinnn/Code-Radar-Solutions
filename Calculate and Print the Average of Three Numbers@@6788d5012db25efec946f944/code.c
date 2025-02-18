@@ -1,11 +1,11 @@
 // Your code here...
 #include <stdio.h>
-int avg(int a, int b, int c){
-    return (a+b+c)/3.0;
-}
+
 int main()
 {
-    scanf("%d%d%d",&a,&b,&c);
-    int result = avg(int a,b,c);
+    int a,b,c;
+    scanf("%d%d%d",&a.&b,&c);
+    int result;
+    result = (a+b+c)/3.0;
     printf("%d",result);
 }
