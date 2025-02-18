@@ -7,5 +7,5 @@ int main()
     int result;
     scanf("%d%d%d",&a,&b,&c);
     result = (a+b+c)/3.0;
-    printf(result);
+    printf("%d",result);
 }
