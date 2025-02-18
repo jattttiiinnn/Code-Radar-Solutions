@@ -5,7 +5,7 @@ int main(){
     char a;
     scanf("%c",&a);
     if isdigit(a){
-        printf("");
+        printf("Digit");
     }
     else if (a=='a'||a=='A'||a=='E'|| a=='e'||
         a=='I'|| a=='i'||a=='O'|| a=='o'||
