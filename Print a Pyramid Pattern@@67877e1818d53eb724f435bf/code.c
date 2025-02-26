@@ -2,15 +2,18 @@
 #include <stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    for(int i=0; i<n; i++){
-        for(int j=0; j<i; j++){
-            printf(" ");
-        }
+  int n;
+  scanf("%d",&n);
+  for(int row=0; row<n; row++)
+  {
+    for(int col=0; col<n-row-1; col=0)
+    {
+        printf(" ");
+    }
+    for(int col=0; col<row+1; col++)
+    {
+        printf("* ");
+    }
     printf("\n");
-    for(int k=0; k<n-i; k++){
-        printf("*");
-    }
-    }
+  }
 }
