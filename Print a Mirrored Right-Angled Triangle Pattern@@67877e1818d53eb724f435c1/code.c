@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     for(int row=1; row<=n; row++){
         for(int col=1; col<=n-1; col++){
-            printf(" ");
+            printf("\n");
         }
         for(int k=1; k<=row-1; k++){
             printf("*");
