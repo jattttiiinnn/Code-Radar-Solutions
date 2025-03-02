@@ -12,7 +12,7 @@ int main()
     }
     for(int col=1; col<=row*2-1; col++)
     {
-        printf("* ");
+        printf("*");
     }
     printf("\n");
   }
