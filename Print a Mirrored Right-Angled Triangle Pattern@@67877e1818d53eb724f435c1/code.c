@@ -11,6 +11,6 @@ int main(){
         for(int k=1; k<=row-1; k++){
             printf("*");
         }
+        printf("\n");
     }
-    printf("\n");
 }
