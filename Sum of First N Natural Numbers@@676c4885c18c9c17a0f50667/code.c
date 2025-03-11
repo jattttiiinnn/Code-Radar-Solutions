@@ -5,9 +5,10 @@ int main() {
     int n;
     scanf("%d",&n);
     int sum = 0;
-    while(sum <= n){  // Problem: loop runs one extra time
-        int answer = sum + 1;
-        sum++;
+    int i = 1;
+    while( i <= n){  // Problem: loop runs one extra time
+        sum = sum + i;
+        i++;
     }
-    printf("%d",answer);
+    printf("%d",sum);
 }
