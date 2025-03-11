@@ -6,7 +6,8 @@ int main() {
     scanf("%d",&n);
     int sum = 0;
     while(sum <= n){  // Problem: loop runs one extra time
+        int answer = sum + 1;
         sum++;
     }
-    printf("%d",sum);
+    printf("%d",answer);
 }
