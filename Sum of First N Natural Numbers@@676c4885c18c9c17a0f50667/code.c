@@ -7,7 +7,7 @@ int main() {
     int sum = 0;
     while(n < 0){
         sum = sum + 1;
-        sum++;
         printf("%d",sum);
+        sum++;
     }
 }
