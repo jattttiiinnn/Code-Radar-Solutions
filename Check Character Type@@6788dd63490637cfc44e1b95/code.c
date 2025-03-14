@@ -12,7 +12,7 @@ int main(){
         a=='U'|| a=='u') {
         printf("Vowel");
     }
-    else{
-        printf("Consonant");
+    else if (char a == "@"){
+        printf("Special Character");
     }
 }
