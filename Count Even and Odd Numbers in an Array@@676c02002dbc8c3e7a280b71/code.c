@@ -15,6 +15,7 @@ int main() {
             sum++;
         }
         else {
+            odd++;
         }
     }
     printf("%d %d ",sum, odd);
