@@ -32,6 +32,6 @@ int main(){
             }
         }
         
-    printf("%d",arr[peak]);
+        printf("%d",arr[peak]);
     }
 }
