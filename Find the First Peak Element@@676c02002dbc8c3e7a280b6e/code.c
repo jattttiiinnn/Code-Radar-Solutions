@@ -25,7 +25,7 @@ int main(){
             }
         } 
         else if(i-1 >= 0 && i+1 < size) {
-            printf("\nComparing %d with neighbors %d and %d", arr[i], arr[i-1], arr[i+1]);
+            //printf("\nComparing %d with neighbors %d and %d", arr[i], arr[i-1], arr[i+1]);
             if(arr[i] > arr[i-1] && arr[i] > arr[i+1]) {
                 peak = i;
                 break;
