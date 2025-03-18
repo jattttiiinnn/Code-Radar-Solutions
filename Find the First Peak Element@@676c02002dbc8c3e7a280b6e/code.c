@@ -30,9 +30,7 @@ int main(){
                 peak = i;
                 break;
             }
-        }
-        if(peak != -1){
-             printf("%d",arr[peak]);
+        printf("%d",arr[peak]);
         }
     }
 }
