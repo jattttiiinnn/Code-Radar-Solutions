@@ -10,7 +10,7 @@ int main() {
     // for(int i=0; i<size; i++){
     //     printf("%d ",arr[i]);
     // }
-    printf("\n");
+    //printf("\n");
 
     int temp[size];
     for(int i=0; i<size; i++){
