@@ -12,7 +12,8 @@ int main() {
     for(int i=0; i<size; i++) {
         if(arr[i] % 2 == 0) {
             sum = sum + arr[i];
-            i++;
+            sum++;
         }
     }
+    printf("%d",sum);
 }
