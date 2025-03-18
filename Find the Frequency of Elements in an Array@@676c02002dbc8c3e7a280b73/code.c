@@ -6,6 +6,7 @@ int main() {
     scanf("%d",&size);
     int copy[size];
     int counted[size];
+    int arr[size];
     for(int i=0; i<size; i++){
         copy[i] = arr[i];
         counted[i] = 0;
@@ -17,5 +18,5 @@ int main() {
             counted[j] = 1;
         }
     }
-    printf("%d %d .\n", arr[size], sum);
+    printf("%d %d .\n", arr[i], sum);
 }
