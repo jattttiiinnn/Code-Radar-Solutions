@@ -11,17 +11,17 @@ int main() {
     for(int i=0; i<size; i++) {
         scanf("%d", &arr[i]);
     }
-    int sum = INT_MIN;
+    int sum = INT_MAX;
     for(int i=0; i<size; i++) {
-        if(arr[i] > sum) {
+        if(arr[i] < sum) {
             sum = arr[i];
         }
     }
     printf("%d ",sum);
 
-    int min = INT_MAX;
+    int min = INT_MIN;
     for(int i=0; i<size; i++) {
-        if(arr[i] < min) {
+        if(arr[i] > min) {
             min = arr[i];
         }
     }
