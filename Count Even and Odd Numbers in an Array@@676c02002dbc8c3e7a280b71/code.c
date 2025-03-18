@@ -9,9 +9,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int sum = 0;
+    int odd = 0;
     for(int i=0; i<size; i++) {
         if(arr[i] % 2 == 0) {
             sum++;
+        }
+        else {
+            printf("%d",odd);
         }
     }
     printf("%d",sum);
