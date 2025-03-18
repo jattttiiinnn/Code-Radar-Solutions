@@ -31,7 +31,8 @@ int main(){
                 break;
             }
         }
-        
-        printf("%d",arr[peak]);
+        if(peak != -1){
+             printf("%d",arr[peak]);
+        }
     }
 }
