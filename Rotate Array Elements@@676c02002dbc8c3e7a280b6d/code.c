@@ -2,7 +2,7 @@
 
 int main() {
     int size,rotation;
-    scanf("%d %d",&size,&rotation);
+    scanf("%d",&size);
     int arr[size];
     for(int i=0; i<size; i++) {
         scanf("%d",&arr[i]);
@@ -11,7 +11,7 @@ int main() {
     //     printf("%d ",arr[i]);
     // }
     //printf("\n");
-
+    scanf("%d",&rotation);
     int temp[size];
     for(int i=0; i<size; i++){
         int new = (i + rotation) % size;
