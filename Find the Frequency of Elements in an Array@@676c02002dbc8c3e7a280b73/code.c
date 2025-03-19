@@ -26,6 +26,6 @@ int main() {
                 counted[j] = 1;
             }
         }
-        printf("%d  %d \n", arr[i], sum);
+        printf("%d %d \n", arr[i], sum);
     }
 }
