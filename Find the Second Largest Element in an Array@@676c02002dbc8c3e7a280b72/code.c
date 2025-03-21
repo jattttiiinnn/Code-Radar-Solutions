@@ -9,8 +9,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int hasDuplicate = 0;
-    for(int i=0; i<n-1; i++) {
-        for(int j=i+1; j<n; j++) {
+    for(int i=0; i<n-2; i++) {
+        for(int j=i+1; j<n-1; j++) {
             if(arr[i] == arr[j]) {
                 hasDuplicate = 1;
                 break;
