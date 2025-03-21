@@ -11,15 +11,12 @@ int main() {
     int hasDuplicate = 0;
     for(int i=0; i<n-1; i++) {
         for(int j=i+1; j<n; j++) {
-            printf("%d\n",arr[i]);
-            printf("%d\n",arr[j]);
             if(arr[i] == arr[j]) {
                 hasDuplicate = 1;
                 break;
             }
         }
     }
-    printf("%d",hasDuplicate);
     if(hasDuplicate) {
         printf("-1");
     }
@@ -35,6 +32,7 @@ int main() {
     
    
 }
-}
  printf("%d", arr[n-2]);
+}
+
 }
