@@ -21,7 +21,8 @@ int main(){
     }
 
     // Print peak value outside the loop
-    printf("%d", arr[peak]);
+    if (peak==-1){printf("-1");}
+    else{printf("%d", arr[peak]);}
     
     return 0;
 }
