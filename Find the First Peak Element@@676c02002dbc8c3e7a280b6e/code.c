@@ -11,17 +11,14 @@ int main(){
     }
     
     int peak = -1;
-    int a;
     if(arr[0]>arr[1]){peak=0;}
-
+    else if (arr[size-1]>arr[size-2]){peak=size-1;}
     for(int i = 1; i < size - 1; i++) {
         if(arr[i] >= arr[i-1] && arr[i] >= arr[i+1]) {
             peak = i;
-            a=1;
             break;
         }
     }
-    if (a!=1){peak=size-1;}
 
     // Print peak value outside the loop
     printf("%d", arr[peak]);
