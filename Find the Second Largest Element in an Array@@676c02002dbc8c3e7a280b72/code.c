@@ -19,7 +19,7 @@ int main() {
             }
         }
     }
-    printf("%d",hasDuplicate)
+    printf("%d",hasDuplicate);
     if(hasDuplicate) {
         printf("-1");
     }
