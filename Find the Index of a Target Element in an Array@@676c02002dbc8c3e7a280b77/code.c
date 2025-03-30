@@ -16,5 +16,5 @@ int main() {
         }
         
     }
-    printf("%d", found-1);
+    printf("%d", found);
 }
