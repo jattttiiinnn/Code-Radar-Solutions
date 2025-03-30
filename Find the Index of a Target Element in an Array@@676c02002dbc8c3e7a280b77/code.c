@@ -16,5 +16,10 @@ int main() {
         }
         
     }
-    printf("%d", found);
+    if(found == target) {
+        printf("%d",found);
+    }
+    else{
+        printf("-1");
+    }
 }
