@@ -27,6 +27,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    int result = findSmallestMissingPositive(arr, n);
+    int result = findPositive(arr, n);
     printf("%d\n", result);
 }
