@@ -12,6 +12,9 @@ int main() {
         if(arr[i] > 0) {
             sum = arr[i];
         }
+        else{
+            if(arr[i] < 0) break;
+        }
     }
     printf("%d", sum);
 }
