@@ -1,5 +1,5 @@
 // Your code here...
-#include <Stdio.h>
+#include <stdio.h>
 
 void Movezeroes(int arr[], int n) {
     for(int i=0; i<n-1; i++) {
@@ -19,7 +19,7 @@ void Movezeroes(int arr[], int n) {
 }
 
 int main() {
-     int n;
+    int n;
     scanf("%d", &n);
     int arr[n];
 
