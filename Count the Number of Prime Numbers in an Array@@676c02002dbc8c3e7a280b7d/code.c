@@ -19,7 +19,7 @@ int Prime(int arr[], int n){
             printf("%d",arr[i]);
         }
         else{
-            printf("%d",arr[j]);
+            printf("%d",arr[i]);
         }
     }
 }
