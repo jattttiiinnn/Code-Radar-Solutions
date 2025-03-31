@@ -10,7 +10,7 @@ int main() {
     }
     for(int i=0; i<n; i++) {
         if(arr[i] > 0) {
-            sum = arr[i];
+            sum += arr[i];
         }
         else{
             if(arr[i] < 0) break;
