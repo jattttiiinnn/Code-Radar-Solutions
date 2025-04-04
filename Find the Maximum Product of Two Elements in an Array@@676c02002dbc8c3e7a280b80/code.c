@@ -18,9 +18,7 @@ int main() {
     }
     int product1 = arr[0] * arr[1];
     int product2 = arr[n-1] * arr[n-2];
-    if(product1 > product2) {
-        printf("%d", product1);
-    }
+    printf("%d", (product1 > product2) ? product1 : product2);
     // int max = INT_MIN;
     // int max2 = INT_MIN;
     // for(int i=0; i<n; i++) {
