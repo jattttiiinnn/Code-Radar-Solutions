@@ -14,7 +14,10 @@ int main() {
         if(arr[i] > min) {
             max = arr[i];
         }
+        else if(arr[i] > min && max != max2) {
+            max2 = arr[i];
+        }
     }
-    printf("%d", max);
+    printf("%d", max2);
 
 }
