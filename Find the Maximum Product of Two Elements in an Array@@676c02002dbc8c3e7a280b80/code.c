@@ -19,6 +19,6 @@ int main() {
             max = arr[i];
         }
     }
-    printf("%d", max*max2);
+    printf("%d", max2);
 
 }
