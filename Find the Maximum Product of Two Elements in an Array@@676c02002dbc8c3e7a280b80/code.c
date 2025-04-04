@@ -10,15 +10,15 @@ int main() {
     int min = INT_MIN;
     int max2 = 0;
     int max = 0;
-    int maxi2 = 0;
     for(int i=0; i<n; i++) {
-        if(arr[i] > min) {
+        if(arr[i] > max) {
             max = arr[i];
         }
-        else if(arr[i] > max && arr[i] != max) {
-            maxi2 = arr[i];
+        else if(arr[i] > max) {
+            max2 = max;
+            max = arr[i];
         }
     }
-    printf("%d", max*maxi2);
+    printf("%d", max*max2);
 
 }
