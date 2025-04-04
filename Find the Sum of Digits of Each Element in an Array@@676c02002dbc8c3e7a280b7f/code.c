@@ -8,9 +8,10 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int sum = 0;
+    int digit[100];
     for(int i=0; i<n; i++) {
         if(arr[i] > 0) {
-            int digit[i] = n % 10;
+            digit[i] = n % 10;
             n /= 10;
             sum += arr[i];
             sum = new_arr[i];
