@@ -13,9 +13,9 @@ int bubbleSort(char arr[], int n){
     }
     return 0;
 }
+printf("Sorted array: ");
 void printArray(char arr[], int n){
-    printf("Sorted array: ");
     for(int i=0;i<n;i++){
-        printf(" %c ", arr[i]);
+        printf("%c ", arr[i]);
     }
 }
