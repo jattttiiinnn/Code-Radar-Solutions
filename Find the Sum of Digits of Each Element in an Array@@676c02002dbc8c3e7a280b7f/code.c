@@ -11,7 +11,7 @@ int main() {
     for(int i=0; i<n; i++) {
          int num = arr[i];
         int digitSum = 0;
-        do(num > 0){
+        do{
             digitSum += num % 10;
             num /= 10;
         }
