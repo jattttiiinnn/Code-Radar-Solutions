@@ -7,17 +7,17 @@ int main() {
     for(int i=0; i<n; i++) {
         scanf("%d",&arr[i]);
     }
-    int min = INT_MIN;
-    int max2 = 0;
-    int max = 0;
+    int max = INT_MIN;
+    int max2 = INT_MIN;
     for(int i=0; i<n; i++) {
-        if(arr[i] > min) {
+        if(arr[i] > max) {
+            max2 = max;
             max = arr[i];
         }
-        else if(arr[i] > min && max != max2) {
+        else if(arr[i] > max2 && arr[i] != max) {
             max2 = arr[i];
         }
     }
-    printf("%d", max2);
+    printf("%d", max*max2);
 
 }
