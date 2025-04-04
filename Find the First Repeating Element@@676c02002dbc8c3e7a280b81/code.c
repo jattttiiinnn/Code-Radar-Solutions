@@ -22,7 +22,7 @@ int main() {
             Duplicate = arr[i];
         }
     }
-    if(Duplicate == arr[i]){
+    if(Duplicate == arr[n]){
         printf("%d", Duplicate);
     }
     else{
