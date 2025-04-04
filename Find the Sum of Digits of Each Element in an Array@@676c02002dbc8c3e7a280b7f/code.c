@@ -11,9 +11,15 @@ int main() {
     for(int i=0; i<n; i++) {
          int num = arr[i];
         int digitSum = 0;
-        while(num > 0){
+        do(num > 0){
             digitSum += num % 10;
             num /= 10;
+        }
+        while(num<0){
+            for(int i=0; i<n; i++) {
+                int new_arr2 = -1;
+                printf("%d",new_arr2);
+            }
         }
         new_arr[i] = digitSum;
     }
