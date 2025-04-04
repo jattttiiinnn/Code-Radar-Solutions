@@ -9,7 +9,7 @@ int main() {
     }
     for(int i=0; i<n; i++) {
         if(arr[i] > 0) {
-            int digit[i++] = n % 10;
+            int digit[i] = n % 10;
             n /= 10;
             int sum += arr[i];
         }
