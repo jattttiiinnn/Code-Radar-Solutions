@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int sum = 0;
-    int digit[100];
+    int digit[n];
     for(int i=0; i<n; i++) {
         if(arr[i] > 0) {
             digit[i] = n % 10;
