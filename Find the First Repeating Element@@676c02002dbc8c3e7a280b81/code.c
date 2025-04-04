@@ -16,17 +16,13 @@ int main() {
             }
         }   
     }
-    int Duplicate = 0;
+    int Duplicate = -1;
     for(int i=0; i<n; i++) {
         if(arr[i] == arr[i+1]) {
             Duplicate = arr[i];
         }
     }
-    if(Duplicate == arr[n]){
-        printf("%d", Duplicate);
-    }
-    else{
-        printf("%d", "-1");
-    }
+    printf("%d", Duplicate);
+    
     
 }
