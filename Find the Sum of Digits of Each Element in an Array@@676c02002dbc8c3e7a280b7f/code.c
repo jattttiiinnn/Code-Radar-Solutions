@@ -12,8 +12,8 @@ int main() {
         if(arr[i] > 0) {
             arr[i] = n % 10;
             n /= 10;
-            sum += arr[i];
-            sum = new_arr[i];
+            arr[i] += arr[i+1];
+            arr[i] = new_arr[i];
         }
     }
     printf("%d",new_arr);
