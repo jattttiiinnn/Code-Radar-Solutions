@@ -17,7 +17,7 @@ int main() {
         }
     }
     int product1 = arr[0] * arr[1];
-    int product2 = arr[n] * arr[n-1];
+    int product2 = arr[n-1] * arr[n-2];
     if(product1 > product2) {
         printf("%d", product1);
     }
