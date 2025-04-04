@@ -9,12 +9,15 @@ int main() {
     }
     int sum = 0;
     for(int i=0; i<n; i++) {
-        if(arr[i] > 0) {
-            arr[i] = n % 10;
-            n /= 10;
-            arr[i] += arr[i+1];
-            arr[i] = new_arr[i];
+         int num = arr[i];
+        int digitSum = 0;
+        while(num > 0){
+            digitSum += num % 10;
+            num /= 10;
         }
+        new_arr[i] = digitSum;
     }
-    printf("%d",new_arr);
+    for(int i=0; i<n; i++) {
+        printf("%d ",new_arr[i]);
+    }
 }
