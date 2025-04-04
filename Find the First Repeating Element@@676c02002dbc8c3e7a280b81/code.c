@@ -21,9 +21,6 @@ int main() {
         if(arr[i] == arr[i+1]) {
             Duplicate = arr[i];
         }
-        else if(arr[i] != arr[i+1]){
-            printf("%d", "-1");
-        }
     }
     printf("%d", Duplicate);
 }
