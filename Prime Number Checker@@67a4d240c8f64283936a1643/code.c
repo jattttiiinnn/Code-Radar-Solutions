@@ -4,7 +4,7 @@
 
 // Function to check if a number is prime
 bool isPrime(int n) {
-    if (num < 2) return false;
+    if (n < 2) return false;
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) return false;
     }
