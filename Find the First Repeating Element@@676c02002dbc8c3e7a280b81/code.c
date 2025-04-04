@@ -22,5 +22,11 @@ int main() {
             Duplicate = arr[i];
         }
     }
-    printf("%d", Duplicate);
+    if(Duplicate == arr[i]){
+        printf("%d", Duplicate);
+    }
+    else{
+        printf("%d", "-1");
+    }
+    
 }
