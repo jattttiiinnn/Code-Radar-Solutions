@@ -22,7 +22,6 @@ int main() {
             }
         }
     }
-    int min = 0;
     for(int i=0; i<n; i++)
     {
         if(arr[i] != arr[i+1])
@@ -30,5 +29,4 @@ int main() {
             printf("%d", arr[2]);
         }
     }
-    printf("%d", min);
 }
