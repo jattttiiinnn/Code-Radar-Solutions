@@ -22,11 +22,13 @@ int main() {
             }
         }
     }
+    int min = 0;
     for(int i=0; i<n; i++)
     {
         if(arr[i] != arr[i+1])
         {
-            printf("%d", arr[2]);
+            min = arr[i];
         }
     }
+    printf("%d", min);
 }
