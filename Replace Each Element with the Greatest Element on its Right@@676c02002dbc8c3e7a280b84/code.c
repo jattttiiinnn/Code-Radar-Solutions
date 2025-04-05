@@ -21,6 +21,6 @@ int main() {
     }
     new_arr[n-1] = -1;
     for(int i=0; i<n; i++) {
-        printf("%d", new_arr[i]);
+        printf("%d ", new_arr[i]);
     }
 }
