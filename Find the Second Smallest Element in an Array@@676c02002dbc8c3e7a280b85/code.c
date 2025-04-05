@@ -22,21 +22,18 @@ int main() {
             }
         }
     }
-    int isMin = -1;
+    int found = 0;
     for(int i=0; i<n; i++)
     {
-        if(arr[i] != arr[i+1])
+        if(arr[i] > arr[0])
         {
-            isMin = 0;
+            printf("%d", arr[i]);
+            found = 1;
             break;
         }
     }
-    if(isMin)
+    if(!found)
     {
-        printf("%d", arr[2]);
-    }
-    else
-    {
-        printf("%d", isMin);
+        printf("-1");
     }
 }
