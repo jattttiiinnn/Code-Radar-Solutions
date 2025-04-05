@@ -10,9 +10,10 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int max = INT_MIN;
+    int new_arr[n];
     for(int i=0; i<n; i++) {
         if(arr[i] > max) {
-            int new_arr[i] = max;
+            new_arr[i] = max;
             printf("%d ", new_arr[i]);
         }
     }
