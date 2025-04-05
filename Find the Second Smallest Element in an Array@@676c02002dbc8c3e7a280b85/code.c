@@ -22,11 +22,21 @@ int main() {
             }
         }
     }
+    int isMin = -1;
     for(int i=0; i<n; i++)
     {
         if(arr[i] != arr[i+1])
         {
-            printf("%d", arr[2]);
+            isMin = 0;
+            break;
         }
+    }
+    if(isMin)
+    {
+        printf("%d", arr[2]);
+    }
+    else
+    {
+        printf("%d", isMin);
     }
 }
