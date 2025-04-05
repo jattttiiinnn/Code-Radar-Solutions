@@ -14,7 +14,7 @@ int main() {
     for(int i=0; i<n; i++) {
         if(arr[i] > max) {
             new_arr[i] = arr[i];
-            printf("%d ", new_arr[i]);
+            printf("%d ", new_arr[i+1]);
         }
     }
 }
