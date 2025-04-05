@@ -27,7 +27,7 @@ int main() {
     {
         if(arr[i] != arr[i+1])
         {
-            min = arr[i];
+            printf("%d", arr[2]);
         }
     }
     printf("%d", min);
