@@ -9,12 +9,18 @@ int main() {
     for(int i=0; i<n; i++) {
         scanf("%d",&arr[i]);
     }
-    int max = INT_MIN;
     int new_arr[n];
     for(int i=0; i<n; i++) {
-        if(arr[i] > max) {
-            new_arr[i] = arr[i];
-            printf("%d ", new_arr[i+1]);
+       int max = arr[i+1];
+       for(int i=i-+1; i<n; i++){
+        if(arr[j] > max) {
+            max = arr[j];
         }
+       }
+       new_arr[i] = max;
+    }
+    new_arr[n-1] = -1;
+    for(int i=0; i<n; i++) {
+        printf("%d", new_arr[i]);
     }
 }
