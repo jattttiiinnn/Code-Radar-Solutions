@@ -1,40 +1,19 @@
-// #include <stdio.h>
-
-// int main()
-// {
-//     int n, sum;
-//     scanf("%d%d",&n,&sum);
-//     int arr[n];
-//     for(int i=0; i<n; i++)
-//     {
-//         scanf("%d",&arr[i]);
-//     }
-//     for(int i=0; i<n; i++)
-//     {
-//         for(int j=i+1; j<n; j++)
-//         {
-//             if(arr[i] + arr[j] == sum)
-//             {
-//                 printf("%d %d\n", arr[i], arr[j]);
-//             }
-//         }
-//     }
-// }
-
 #include <stdio.h>
 
 int main()
 {
-    int n, sum;
-    scanf("%d %d", &n, &sum);
+    int n;
+    scanf("%d",&n);
     int arr[n];
-
-    for(int i = 0; i < n; i++)
-        scanf("%d", &arr[i]);
-
-    for(int i = 0; i < n; i++)
+    for(int i=0; i<n; i++)
     {
-        for(int j = i + 1; j < n; j++)  // start from i+1 to avoid duplicates & same element
+        scanf("%d",&arr[i]);
+    }
+    int sum;
+    scanf("%d",&sum);
+    for(int i=0; i<n; i++)
+    {
+        for(int j=i+1; j<n; j++)
         {
             if(arr[i] + arr[j] == sum)
             {
@@ -42,6 +21,4 @@ int main()
             }
         }
     }
-
-    return 0;
 }
