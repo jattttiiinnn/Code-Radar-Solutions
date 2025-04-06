@@ -10,10 +10,11 @@ int main()
     for(int i=0; i<n; i++) 
     {
         scanf("%d",&arr[i]);
+        arr[i] = sorted[i];
     }
     for(int i=0; i<n; i++)
     {
-        for(int j=0; j<n; j++)
+        for(int j=0; j<n-i-1; j++)
         {
             if(arr[j] > arr[j+1])
             {
@@ -32,6 +33,6 @@ int main()
             break;
         }
     }
-    if(!isSorted) printf("NO");
-    else printf("YES");
+    if(!isSorted) printf("YES");
+    else printf("NO");
 }
