@@ -10,13 +10,29 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    int isFound = 0;
     for(int i=0; i<n; i++)
     {
-        if(arr[i] > max && arr[i] % 2 == 0)
-        {
-            max = arr[i];
+        // if(arr[i] > max && arr[i] % 2 == 0)
+        // {
+        //     max = arr[i];
 
+        // }
+        if(arr[i] % 2 == 0)
+        {
+            if(!isFound || arr[i] > max)
+            {
+                max = arr[i];
+                isFound = 1;
+            }
         }
     }
-    printf("%d",max);
+    if(!isFound)
+    {
+        printf("%d", max);
+    }
+    else
+    {
+        printf("-1");
+    }
 }
