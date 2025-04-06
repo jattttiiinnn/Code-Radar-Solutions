@@ -14,8 +14,7 @@ int main()
     for(int i=0; i<n; i++)
     {
         sum = sum + arr[i];
-        sum = new_arr[i];
-        sum++;
+        new_arr[i] = sum;
     }
     for(int i=0; i<n; i++)
     {
