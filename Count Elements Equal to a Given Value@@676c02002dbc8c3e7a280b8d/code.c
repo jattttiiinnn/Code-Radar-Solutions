@@ -5,7 +5,7 @@ int main()
     int n, k;
     scanf("%d%d",&n,&k);
     int arr[n];
-    int count;
+    int count = 0;
     for(int i=0; i<n; i++)
     {
         scanf("%d%d",&n,&k);
@@ -14,6 +14,7 @@ int main()
     {
         if(arr[i] == k)
         {
+            count += arr[i];
             count++;
         }
     }
