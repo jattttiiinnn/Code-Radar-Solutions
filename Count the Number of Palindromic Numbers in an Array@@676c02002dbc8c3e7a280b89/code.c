@@ -16,8 +16,7 @@ int main()
         if(arr[i] != arr[n-1-i])
         {
             isPalindrome = 0;
-            sum += isPalindrome;
-            break;
+            sum += arr[i];
         }
     }
     if(!isPalindrome) printf("%d", sum);
