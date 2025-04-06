@@ -24,15 +24,12 @@ int main()
             }
         }
     }
-    int isSorted = 1;
+    int increasing = 1, decreasing = 1;
     for(int i=0; i<n; i++)
     {
-        if(arr[i] != sorted[i])
-        {
-            isSorted = 0;
-            break;
-        }
+        if(arr[i] > arr[i-1] ) increasing = 0;
+        if(arr[i] < arr[i-1]) decreasing = 0;
     }
-    if(isSorted) printf("YES");
+    if(increasing || decreasing) printf("YES");
     else printf("NO");
 }
