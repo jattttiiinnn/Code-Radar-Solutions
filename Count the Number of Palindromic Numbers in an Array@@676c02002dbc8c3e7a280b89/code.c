@@ -13,7 +13,7 @@ int main()
     int isPalindrome = 1, sum = 0;
     for(int i=0; i<n/2; i++)
     {
-        if(arrr[i] != arr[n-1-i])
+        if(arr[i] != arr[n-1-i])
         {
             isPalindrome = 0;
             sum += arr[i];
