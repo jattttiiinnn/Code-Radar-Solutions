@@ -15,7 +15,7 @@ int main()
         if(arr[i] == k)
         {
             arr[i] = count;
-            count++;
+            //count++;
         }
     }
     printf("%d",count);
