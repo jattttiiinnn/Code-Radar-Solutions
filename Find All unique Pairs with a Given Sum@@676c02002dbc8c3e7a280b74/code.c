@@ -11,12 +11,11 @@ int main()
     }
     for(int i=0; i<n; i++)
     {
-        int element = arr[i];
-        for(int j=0; j<n; j++)
+        for(int j=i+1; j<n; j++)
         {
-            if(element + arr[j] == sum)
+            if(arr[i] + arr[j] == sum)
             {
-                printf("%d%d", element, arr[j]);
+                printf("%d%d", arr[i], arr[j]);
             }
         }
     }
