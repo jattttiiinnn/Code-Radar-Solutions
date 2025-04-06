@@ -16,7 +16,7 @@ int main()
         if(arr[i] != arr[n-1-i])
         {
             isPalindrome = 0;
-            sum += arr[i];
+            sum += isPalindrome;
             break;
         }
     }
