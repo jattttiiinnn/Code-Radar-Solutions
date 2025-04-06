@@ -8,14 +8,14 @@ int main()
     int count = 0;
     for(int i=0; i<n; i++)
     {
-        scanf("%d%d",&n,&k);
+        scanf("%d",&arr[i]);
     }
     for(int i=0; i<n; i++)
     {
         if(arr[i] == k)
         {
             //arr[i] = count;
-            count = arr[i];
+            //count = arr[i];
             count++;
         }
     }
