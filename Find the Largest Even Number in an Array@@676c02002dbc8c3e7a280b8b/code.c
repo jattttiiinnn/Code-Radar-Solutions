@@ -33,6 +33,6 @@ int main()
     }
     else
     {
-        printf("%d","-1");
+        printf("-1");
     }
 }
