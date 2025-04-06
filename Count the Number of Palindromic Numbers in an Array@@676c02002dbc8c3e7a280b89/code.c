@@ -20,6 +20,6 @@ int main()
             break;
         }
     }
-    if(isPalindrome) printf("%d", sum);
+    if(!isPalindrome) printf("%d", sum);
     return 0;
 }
