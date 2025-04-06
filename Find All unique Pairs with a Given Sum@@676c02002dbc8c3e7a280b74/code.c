@@ -15,7 +15,7 @@ int main()
         {
             if(arr[i] + arr[j] == sum)
             {
-                printf("%d%d", arr[i], arr[j]);
+                printf("%d%d\n", arr[i], arr[j]);
             }
         }
     }
