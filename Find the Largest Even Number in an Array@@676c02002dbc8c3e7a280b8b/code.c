@@ -27,7 +27,7 @@ int main()
             }
         }
     }
-    if(!isFound)
+    if(isFound)
     {
         printf("%d", max);
     }
