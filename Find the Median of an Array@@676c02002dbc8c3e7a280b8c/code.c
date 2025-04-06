@@ -23,21 +23,17 @@ int main()
             }
         }
     }
-    int median = 0;
-    int unequal = 0;
-    for(int i=0; i<n; i++)
+    int median;
+    if(n % 2 == 0)
     {
-        if(arr[i] == copy_arr[i])
-        {
-            median = arr[0] + arr[n] / n;
-            break;
-        }
-        else if(arr[i] != copy_arr[i])
-        {
-            //median is averagee of two middle elements
-            unequal = arr[n/2 - 1] + arr[n/2] / 2;
-        }
+        // Average of two middle elements
+        median = (arr[n/2 - 1] + arr[n/2]) / 2.0;
     }
+    else
+    {
+        // Middle element
+        median = arr[n/2];
+    }
+
     printf("%d", median);
-    printf("%d", unequal);
 }
