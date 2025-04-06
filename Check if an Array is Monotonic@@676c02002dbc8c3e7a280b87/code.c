@@ -32,6 +32,6 @@ int main()
             break;
         }
     }
-    if(!isSorted) printf("YES");
-    else printf("NO");
+    if(!isSorted) printf("NO");
+    else printf("YES");
 }
