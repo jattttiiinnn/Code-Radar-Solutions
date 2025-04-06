@@ -16,7 +16,7 @@ int main()
         {
             if(element + arr[j] == sum)
             {
-                printf("%d", element, arr[j]);
+                printf("%d%d", element, arr[j]);
             }
         }
     }
