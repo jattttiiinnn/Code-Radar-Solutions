@@ -16,6 +16,7 @@ int main()
         if(arr[i] == CopyArr[i])
         {
             printf("%d",arr[i]);
+            break;
         }
     }
 }
