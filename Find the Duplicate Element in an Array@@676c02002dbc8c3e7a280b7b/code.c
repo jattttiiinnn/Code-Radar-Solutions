@@ -11,12 +11,23 @@ int main()
         scanf("%d",&arr[i]);
         CopyArr[i] = arr[i];
     }
+    // for(int i=0; i<n; i++)
+    // {
+    //     if(arr[i] == CopyArr[i+1])
+    //     {
+    //         printf("%d",arr[i]);
+    //         break;
+    //     }
+    // }
     for(int i=0; i<n; i++)
     {
-        if(arr[i] == CopyArr[i+1])
+        for(int j=0; j<n; j++)
         {
-            printf("%d",arr[i]);
-            break;
+            if(arr[j] == arr[j+1])
+            {
+                printf("%d", arr[j]);
+                break;
+            }
         }
     }
 }
