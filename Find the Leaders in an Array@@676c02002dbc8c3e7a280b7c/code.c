@@ -20,7 +20,7 @@ int main()
             min = arr[i];
         }
     }
-    for(int i=index - 1; i<n; i++)
+    for(int i=index - 1; i>=0; i--)
     {
         printf("%d ", leaders[i]);
     }
