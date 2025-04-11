@@ -13,9 +13,9 @@ int main()
     }
     for(int i=0; i<n; i++)
     {
-        if(arr[i] == CopyArr[i])
+        if(arr[i] == arr[i+1])
         {
-            printf("%d",CopyArr[i]);
+            printf("%d",arr[i]);
             break;
         }
     }
