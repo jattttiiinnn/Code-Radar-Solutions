@@ -8,7 +8,7 @@ int main()
     int CopyArr[n];
     for(int i=0; i<n; i++)
     {
-        scanf("%d",&arr[i])
+        scanf("%d",&arr[i]);
         CopyArr[i] = arr[i];
     }
     for(int i=0; i<n; i++)
