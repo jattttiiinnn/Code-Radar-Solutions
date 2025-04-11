@@ -10,11 +10,18 @@ int main()
         scanf("%d",&arr[i]);
     }
     int min = INT_MIN;
+    int leaders[n];
+    int index = 0;
     for(int i=0; i<n; i++)
     {
-        if(arr[i] > min || arr[i] > arr[i+1] || arr[i] != arr[i+1])
+        if(arr[i] > min)
         {
-            printf("%d ",arr[i]);
+            leaders[index++] = arr[i];
+            min = arr[i];
         }
+    }
+    for(int i=0; i<n; i++)
+    {
+        printf("%d", leaders[i]);
     }
 }
