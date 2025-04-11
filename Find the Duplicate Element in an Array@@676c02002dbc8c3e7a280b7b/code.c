@@ -13,7 +13,7 @@ int main()
     }
     for(int i=0; i<n; i++)
     {
-        if(arr[i] == CopyArr[i])
+        if(arr[i] == CopyArr[i+1])
         {
             printf("%d",CopyArr[i]);
             break;
