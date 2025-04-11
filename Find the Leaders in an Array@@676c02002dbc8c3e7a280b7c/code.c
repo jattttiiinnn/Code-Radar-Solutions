@@ -46,7 +46,7 @@ int main()
     // Traverse from right to left
     for (int i = n - 1; i >= 0; i--)
     {
-        if (arr[i] > maxRight)
+        if (arr[i] >= maxRight)
         {
             leaders[index++] = arr[i];
             maxRight = arr[i];
